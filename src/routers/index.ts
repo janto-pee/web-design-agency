@@ -10,6 +10,7 @@ const router = createRouter({
         behavior: 'smooth',
       }
     }
+    console.log(from, savedPosition)
   },
   history: createWebHistory(),
   routes: [
